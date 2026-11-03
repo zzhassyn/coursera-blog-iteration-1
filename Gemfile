@@ -1,7 +1,4 @@
-source "https://rubygems.org"
-
-gem "rails", "7.1.5.2"
-gem "sqlite3", "~> 1.7"
-gem "rackup"
-gem "webrick"
-gem "tzinfo-data", platforms: %i[windows jruby]
+source 'https://rubygems.org'
+gem 'rails', '4.2.11.3'
+gem 'sqlite3', '~> 1.3.6'
+gem 'sprockets-rails', '3.2.2'
